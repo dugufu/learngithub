@@ -1,4 +1,6 @@
 # learngithub
-For myself to learn 123
+For myself to learn 
 
 C++ and learn how to use github
+
+Bug 1 modifed
