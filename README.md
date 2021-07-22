@@ -1,4 +1,4 @@
-# learngithub 12345
+# learngithub
 For myself to learn 
 
 C++ and learn how to use github
