@@ -1,13 +1,11 @@
 #include <iostream>
-
+#include "threepigs.h"
 using namespace std;
 
 int main()
 {
-    int a = 13;
-    int b = 3;
-    int c = a % b;
-    std::cout << "discplay output" << c;
+    threepigs();
 
+    system("pause");
     return 0;
 }
