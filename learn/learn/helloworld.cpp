@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int a = 12;
+    int a = 10;
     int b = 3;
     int c = a % b;
     std::cout << "discplay output" << c;
