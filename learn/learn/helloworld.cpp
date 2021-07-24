@@ -6,6 +6,5 @@ int main()
 {
     threepigs();
 
-    system("pause");
     return 0;
 }
