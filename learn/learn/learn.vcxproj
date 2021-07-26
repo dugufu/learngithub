@@ -142,6 +142,7 @@
     <ClCompile Include="getBasicFunction.cpp" />
     <ClCompile Include="helloworld.cpp" />
     <ClCompile Include="threepigs.cpp" />
+    <ClCompile Include="two-dimensinal-array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="getBasicFunction.h" />
