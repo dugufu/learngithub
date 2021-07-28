@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="define_function.cpp" />
     <ClCompile Include="getBasicFunction.cpp" />
     <ClCompile Include="helloworld.cpp" />
     <ClCompile Include="threepigs.cpp" />

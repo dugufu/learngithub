@@ -1,0 +1,14 @@
+﻿  helloworld.cpp
+  two-dimensinal-array.cpp
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(49,38): warning C4311: 'type cast': pointer truncation from 'int (*)[3]' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(49,38): warning C4302: 'type cast': truncation from 'int (*)[3]' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(50,45): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(50,45): warning C4302: 'type cast': truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(51,45): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(51,45): warning C4302: 'type cast': truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(53,38): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(53,38): warning C4302: 'type cast': truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(54,38): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\Users\ahxian\Desktop\githubproject\learn\learn\learn\two-dimensinal-array.cpp(54,38): warning C4302: 'type cast': truncation from 'int *' to 'int'
+  Generating Code...
+  learn.vcxproj -> C:\Users\ahxian\Desktop\githubproject\learn\learn\x64\Debug\learn.exe
