@@ -1,8 +1,8 @@
 #include <iostream>
 #include "threepigs.h"
-#include <string>>
+#include <string>
 using namespace std;
-
+/*
 struct Student {
     string name;
     int age;
@@ -36,7 +36,57 @@ void printStudent_ptr(Teacher *T) {
     cout << endl;
 }
 
+ */
 
+struct Student {
+
+    string name;
+    int age;
+    int score;
+};
+
+struct Teacher {
+    string name;
+    int age;
+    struct Student stuArray[5];
+};
+
+
+void allocated(Teacher tArray[], const int *len, const int *stuArray)
+{
+    string nameSeed = "ABCDE";
+    for (int i = 0; i < *len; i++)
+    {
+        tArray[i].name = "Teacher_";
+        tArray[i].age = 30 + (i * 2);
+        tArray[i].name += nameSeed[i];
+
+        for (int j = 0; j < *stuArray; j++)
+        {
+            tArray[i].stuArray[j].name = "Student_";
+            tArray[i].stuArray[j].name += nameSeed[j];
+            tArray[i].stuArray[j].age = j + 16;
+            tArray[i].stuArray[j].score = rand() % 60 + 40;
+
+        }
+    }
+}
+
+void printInfo(struct Teacher tArray[], int *len, int  *stuLen)
+{
+    for (int i = 0; i < *len; i++)
+    {
+        cout << "Teahcer's name : \t" << tArray[i].name << endl;
+        cout << "Teacher's age : \t" << tArray[i].age << endl << endl;
+        for (int j = 0; j < *stuLen; j++)
+        {
+            cout << "Student's name : \t" << tArray[i].stuArray[j].name << endl;
+            cout << "Student's age : \t" << tArray[i].stuArray[j].age << endl;
+            cout << "Student's score : \t" << tArray[i].stuArray[j].score << endl << endl;
+        }
+        cout << "----------------------------------------------------------------" << endl;
+    }
+}
 
 int main()
 {   //<section ------1>
@@ -91,7 +141,7 @@ int main()
     cout << ptr->name << endl;
     cout << ptr->age<< endl;
     cout << ptr->score << endl;
-    */
+    
 
     Teacher t;
     t.teacher_id = 1;
@@ -106,5 +156,13 @@ int main()
     printStudent(t);
     printStudent_ptr(ptr);
     return 0;
-}
+    */
+    struct Teacher teaArray[3];
+    struct Student stuArray[5];
+    int len =  sizeof(teaArray) / sizeof(teaArray[0]);
+    int stuLen =  sizeof(stuArray) / sizeof(stuArray[0]);
+
+    allocated(teaArray, &len, &stuLen);
+    printInfo(teaArray,& len, &stuLen);
+};
 
